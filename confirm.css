@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    color: #515151;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  #bg img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -2;
+      top: 0;
+  }
+  
+  #overlay {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    background-color: gray;
+    opacity:0.5;
+  }
+  
+  #container {
+    position: relative;
+    max-width: 218px;
+    margin: 200px auto;
+    background: #fff;
+    padding: 20px 17px;
+    text-align: center;
+    border-radius: 3%;
+  }
+
+  button:hover{
+      background-color: darkgreen;
+  }
+  
+  h1 {
+    margin: 30px 0 20px 0;
+    font-weight: normal;
+  }
+  
+  p {
+    font-size: 0.8em;
+    margin-bottom: 25px;
+  }
+  
+  button {
+    width: 100%;
+    background: #73c242;
+    border: transparent;
+    border-radius: 3%;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+  }
+  
+  #circle {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #73c242;
+    border-radius: 50%;
+    text-align: center;
+    top: -40px;
+    left: 84px;
+  }
+  
+  i {
+    color: white;
+    margin: 25px;
+    font-size: 30px;
+  }
+  
+  .background{
+    background-image: url("https://images.pexels.com/photos/4827/nature-forest-trees-fog.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+  }
